@@ -4,7 +4,7 @@
 # Automated Minecraft Server + Crafty Controller Installer
 # Target OS: Ubuntu (20.04 / 22.04 / 24.04 recommended)
 # Usage example:
-# wget -O install.sh "https://github.com/poisoniks/utils/raw/refs/heads/main/minecraft-modded-server-setup-linux.sh"
+# wget -O install.sh "https://github.com/poisoniks/utils/raw/refs/heads/main/minecraft/minecraft-modded-server-setup-linux.sh"
 # chmod +x install.sh
 # sudo ./install.sh "https://www.curseforge.com/api/v1/mods/924189/files/7268582/download"
 # ==============================================================================

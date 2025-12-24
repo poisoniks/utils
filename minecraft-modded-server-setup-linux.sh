@@ -4,9 +4,9 @@
 # Automated Minecraft Server + Crafty Controller Installer
 # Target OS: Ubuntu (20.04 / 22.04 / 24.04 recommended)
 # Usage example:
-# wget -O install.sh {url_of_this_script}
+# wget -O install.sh "https://github.com/poisoniks/utils/raw/refs/heads/main/minecraft-modded-server-setup-linux.sh"
 # chmod +x install.sh
-# sudo ./minecraft-modded-server-setup-linux.sh "https://www.curseforge.com/api/v1/mods/924189/files/7268582/download"
+# sudo ./install.sh "https://www.curseforge.com/api/v1/mods/924189/files/7268582/download"
 # ==============================================================================
 
 # Exit on error
@@ -39,7 +39,7 @@ fi
 # Check for Modpack URL argument
 if [ -z "$MODPACK_URL" ]; then
     log_err "No modpack URL provided."
-    echo "Usage: sudo ./install_mc_server.sh <DIRECT_DOWNLOAD_URL_TO_SERVER_PACK_ZIP>"
+    echo "Usage: sudo ./install.sh <DIRECT_DOWNLOAD_URL_TO_SERVER_PACK_ZIP>"
     exit 1
 fi
 
